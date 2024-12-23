@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/update"
+    tools:context=".AddContactActivity">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSave"
+        style="android:style/Wigdget.Button"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_btn_save"
+        android:text="Save"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextAddress" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background_textfield"
+        android:hint="Last Name"
+        android:padding="12dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="258dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background_textfield"
+        android:hint="Phone Number"
+        android:padding="12dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.595"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLastName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="262dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/background_textfield"
+        android:hint="First Name"
+        android:padding="12dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="262dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_textfield"
+        android:hint="Address"
+        android:padding="12dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPhone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
