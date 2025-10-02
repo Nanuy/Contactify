@@ -1,0 +1,10 @@
+#Thu Oct 02 15:45:46 WIB 2025
+base.0=C\:\\Users\\IMAM\\AndroidStudioProjects\\PhoneContact_ORE\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\IMAM\\AndroidStudioProjects\\PhoneContact_ORE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\IMAM\\AndroidStudioProjects\\PhoneContact_ORE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=6/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

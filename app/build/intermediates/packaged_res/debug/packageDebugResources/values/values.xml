@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_color">#FF4081</color>
+    <color name="accent_light">#FF80AB</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_primary">#F5F5F5</color>
+    <color name="background_secondary">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="error_color">#F44336</color>
+    <color name="fab_background">#80B0B0B0</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="success_color">#4CAF50</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_contact">Add Contact</string>
+    <string name="add_first_contact">Add Your First Contact</string>
+    <string name="address_hint">Address</string>
+    <string name="app_name">PhoneContact</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_save">Save Contact</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="contact_deleted">Contact deleted</string>
+    <string name="contact_preview">Contact Preview</string>
+    <string name="contact_saved">Contact saved successfully</string>
+    <string name="contact_updated">Contact updated successfully</string>
+    <string name="contacts_title">My Contacts</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="error_empty_name">Please enter a name</string>
+    <string name="error_empty_phone">Please enter a phone number</string>
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="no_contacts_message">Start building your contact list by adding your first contact</string>
+    <string name="no_contacts_title">No Contacts Yet</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="update_contact">Update Contact</string>
+    <style name="Base.Theme.PhoneContact" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.PhoneContact" parent="Base.Theme.PhoneContact"/>
+</resources>
